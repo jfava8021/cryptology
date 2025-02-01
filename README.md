@@ -1,2 +1,3 @@
 # cryptology
-CSCI_360
+ 
+This repo will be for assignments for CSCI_360
