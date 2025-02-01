@@ -72,7 +72,8 @@ for key in list(encoded_message_frequency.keys()):
     new_value = round(new_value, 4)  
     encoded_message_frequency[key] = new_value  
 encoded_message_frequency_keys_sorted = sorted(encoded_message_frequency, key=encoded_message_frequency.get, reverse=True)
-
+print(english_letter_frequency_keys_sorted)
+print(encoded_message_frequency_keys_sorted)
 for letter in spaceless_message:
     if letter == "r":
         decrypted_message_attempt_1 = decrypted_message_attempt_1.replace(letter, "E")
